@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>바둑 특징</title>
+    <style>
+        body {
+            font-family: Arial;
+            margin: 0;
+            padding: 0;
+            background-image: url(home_img/bg.jpg);
+        }
+
+        header {
+            background-color: #1b1b1b;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #000000;
+            padding: 10px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+            color: palegreen;
+            font-weight: bold;
+        }
+
+        footer {
+            text-align: center;
+            padding: 17px;
+            background-color: #1b1b1b;
+            color: rgb(91, 91, 91);
+        }
+
+        @media only screen and (max-width:620px) {
+
+        .menu, .main, .right {
+            width: 100%;
+        }
+        }   
+
+        .tab {
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        
+        td {
+            border: 8px solid #ffffff00;
+            padding: 10px;
+            text-align: left;
+            background-color: #ffffff00; 
+            width: 20px; 
+        }
+
+        .feature-image {
+            width: 500px;
+            height: px;
+            object-fit: cover;
+        }
+
+        h3 {
+            margin: 0 0 10px;
+            color: #343434;
+            text-align: center;
+        }
+
+        p {
+            margin: 0;
+            color: #000000;
+        }
+
+        h2 {
+            font-size: 30px;
+            margin-bottom: 20px;
+            margin-top: 13px;
+            color: black;
+            text-align: center;
+        }
+
+        img {
+            border-radius: 10px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1><a href="main.html" style="text-decoration: none; color: white;" class="header-link">바둑의 세계에 오신 것을 환영합니다</a></h1>
+    </header>
+    
+    <nav>
+        <a href="intro.html">개요</a>
+        <a href="history.html">역사</a>
+        <a href="index.html">메인</a>
+        <a href="rules.html">규칙</a>
+        <a href="person.html">인물</a>
+    </nav>
+
+    <div class="tab">
+        <br><br>
+        <h2>&lt; 바둑의 다양한 특징 &gt;</h2>
+        <table>
+            <tr>
+                <br><br>
+                <td><br>
+                    <h3>특징 1: 매우 간단한 룰, 높은 자유도</h3>
+                    <br>
+                    <p>룰 자체는 오목보다 살짝 어려울 정도로 간결하다. 어린 아이라도 배울 의지가 있으면 이삼일 만에 배울 수 있다. 
+                        사용하는 기물도 바둑판과 흰색과 검은색의 바둑돌이 전부다. <br><br>
+                        바둑은 체스나 장기와 달리 게임 시작 시 돌이 전혀 없고 돌을 어느 곳이든 스스로 자유롭게 두며 싸우는 턴제 땅따먹기 게임이다. 
+                        비유하면 체스나 장기의 말들을 매 수마다 스스로 만들어가며 싸우는 게임이고, 이는 상대 또한 마찬가지다.
+                    </p><br>
+                </td>
+                <td><img src="home_img/a.jpg" alt="특징 1" class="feature-image"></td>
+            </tr>
+            <tr>
+                <td><img src="home_img/b.jpg" alt="특징 2" class="feature-image"></td>
+                <td><br>
+                    <h3>특징 2: 진입장벽과 난이도</h3><br>
+                    <p>높은 자유도로 인해 룰만 알고 바둑에 대한 기초 공부가 제대로 되어 있지 않으면 물리적으로 대국은 할 수는 있지만, 
+                        유의미한 대국을 하기 위해서는 우선 돌을 잡는 여러 방법을 이해해야 하고 살릴 수 있는 돌과 살릴 수 없는 돌을 구분할 줄 알아야 한다. <br><br>
+                        또한, 돌의 연결과 끊김의 개념을 알고 돌을 연결하는 여러 가지 방법이 있음을 이해해야 한다.
+                        알아야 하는 지식이 많고, 그 지식을 흡수하는데 시간이 걸리기에, 진입장벽 때문에 바둑은 제대로 된 재미를 알기까지 꽤 오래 걸린다. 
+                        </p><br>
+                </td>
+            </tr>
+            <tr>
+                <td><br>
+                    <h3>특징 3: 두뇌 게임</h3><br>
+                    <p> 알파고의 등장 이후 바둑은 응용수학의 한 갈래라는 점이 확실히 증명된 상태다. 
+                        최선의 수순을 찾는 것은 본질적으로 경로 찾기 문제와 동일하고, 형세 판단이란 곧 승률 계산, 확률 계산이다. 
+                        이외에도 바둑의 여러 부분들을 종합해본다면, 바둑 자체가 이산수학을 게임화한 것이다. <br><br>
+                        바둑은 철저한 실력 게임이다. '땅따먹기'라는 지극히 단순한 목표로 승패를 가르며, 
+                        그러다 보니 전략전술과 수단이 자유롭고(돌을 두는 방식이 자유롭고) 이기기 위한 방법을 찾는 길이 한둘이 아니다. 
+                        따라서 고도의 정신적인 인내력과 판단력을 요구한다.
+                        </p><br>
+                    <td><img src="home_img/c.jpg" alt="특징 3" class="feature-image"></td>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <br><br><br><br><br>
+
+    <footer>
+        &copy; 2024 웹퍼블리싱. kaywondesign.
+    </footer>
+</body>
+</html>
